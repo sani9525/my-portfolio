@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.head {
+background-color: #151515;
+}
+
+.list{
+    /* border-radius: solid; */
+    display: flex;
+    height: 90px;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    font-weight: bold;
+    justify-items: start;
+    font-size: 15px;
+    margin: 0%;
+    padding-left: 240px;
+    /* font-family: "lora-regular", serif; */
+    font-family: "poppins", sans-serif;
+    /* -webkit-border-radius: solid;
+    -moz-border-radius: solid;
+    -ms-border-radius: solid;
+    -o-border-radius: solid; */
+    /* font: bold; */
+}
+
+.list li{
+    list-style-type: none;
+    color: #ebebeb;
+    padding-left: 150px;
+}
+footer{
+    /* display: flex; */
+    bottom: 0;
+}
+
+#copyright {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    align-items: center;
+    background-color: #15253f;
+    padding: 0 620px;
+    height: 60px;
+    bottom:0;
+    color: aliceblue;
+
+}
+#main-src{
+    filter: blur(2.7px);
+    -webkit-filter: blur(2.7px);
+}
+
+#main-image {
+    background-attachment: fixed;
+    position: relative;
+}
+
+#image-text {
+    margin-top: 0;
+   position: absolute;
+   top: 0;
+   color: aliceblue;
+   padding-left: 30%;
+   margin-top: 12%;
+   text-align: center;
+   align-items: center;
+   font-size: 2.6rem;
+   /* font-size: 84px; */
+   /* font-family: 'Poppins', sans-serif; */
+   font-family: "poppins-medium", sans-serif;
+}
+
+#about-me {
+    color: aliceblue;
+    font-size: 13px;
+    border: solid 3px;
+    border-radius: 1px;
+    padding: 20px;
+    background-size: 50px;
+    size: 10px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-color: rgb(75, 87, 88);
+    /*background-blend-mode:50px;
+    */
+}
+
+#abcd {
+    color: #FF0077;
+        font-size: 1.6rem;
+        line-height: 1.875;
+        margin-bottom: 0.3rem;
+        letter-spacing: .4rem;
+}
+#intro {
+    text-align: center;
+    border: remove;
+    /* align-items: center; */
+    /* font-family: "poppins-medium", sans-serif; */
+    /* text-align: left; */
+
+}
+
+#deep-intro {
+    padding-left: 23rem;
+    padding-right: 23rem;
+    font-family: "lora-regular", serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #888888;
+
+}
+
+#my-projets {
+    background-color: #b9b8b8;
+padding: 30px;
+
+}
+#my-projets h2 {
+    padding: 3px;
+    font-family: "lora-regular", serif;
+   padding-left: 42%;
+}
+
+.text-pro {
+    padding: 3px;
+    font-size: large;
+    color: #888888;
+}
+
+#project-section {
+    background-color: #1a3d46;
+    height: 725px;
+}
+#best-space {
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+#space-sec {
+    padding: 50px;
+    background-color: #ebebeb;
+}
+#next-space {
+    padding: 60px;
+    background-color:#dd2a7e;
+}
+#messg {
+    font-family: "poppins-medium", sans-serif;
+    color: white;
+    height: 550px;
+    background-color: #151515;
+}
+#messg-me {
+    padding-left:400px;
+    padding-right:400px;
+    text-align: center;
+    padding-top: 80px;
+}
+.name {
+    color: white;
+    border-color:#777676;
+    background-color: #151515;
+    width: 600px;
+    height:32px
+}
+
+#imp-links {
+    /* align-items: center;  */
+    /* padding-top:40px; 
+    padding-left:40px; */
+    padding: 30px;
+    display: flex;
+    background-color: #777676;
+    /* height: 100px; */
+}
+#num-name {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#cv {
+    padding-left: 550px;
+    padding-right: 550px;
+}
+
+#download-cv {
+    text-decoration: none;
+    color: #151515;
+    text-align: center;
+    border: solid 3px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    padding: 15px;
+    background-color: #bab9b9;
+    border-color: #777676;
+}
+a{
+    text-decoration: none;
+}
+
+a li:hover {
+    color:#FF0077;
+}
+a div strong p:hover {
+       color:aqua;
+       /* background-color: #777676; */
+}
+a #about-me:hover{
+   background-color: #888888;
+}
+a #download-cv:hover {
+   color: blue;
+   background-color: tomato;
+}
+
+#my-projets hr {
+    color: #888888;
+}
+@media only screen and (max-width:1024px) {
+    body{
+    display: grid;
+    }
+    #copy-text {
+    -webkit-text-security: disc;
+    }
+}
